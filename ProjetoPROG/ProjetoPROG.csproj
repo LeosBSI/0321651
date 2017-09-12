@@ -165,15 +165,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709060013096_InitialModel.cs" />
-    <Compile Include="Migrations\201709060013096_InitialModel.Designer.cs">
-      <DependentUpon>201709060013096_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709060020507_AddIsSubscribedToCustomer.cs" />
-    <Compile Include="Migrations\201709060020507_AddIsSubscribedToCustomer.Designer.cs">
-      <DependentUpon>201709060020507_AddIsSubscribedToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Cadastro.cs" />
     <Compile Include="Models\descricao.cs" />
@@ -246,14 +237,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201709060013096_InitialModel.resx">
-      <DependentUpon>201709060013096_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709060020507_AddIsSubscribedToCustomer.resx">
-      <DependentUpon>201709060020507_AddIsSubscribedToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
